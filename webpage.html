@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Binus Geeks TechCon</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="darkmode.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <button id="theme-switch" class="header__button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+      </button>
+      <h1 class="header__h1">BINUS Geeks TechCon 2025</h1>
+      <p class="header__p">
+        Technology and Programming Conference for Aspiring Programmers and
+        TechSavies
+      </p>
+
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <ul>
+          <li><a href="#schedule">Schedule</a></li>
+        </ul>
+        <ul>
+          <li><a href="#speaker">Speaker</a></li>
+        </ul>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+
+
+      <section id="about" class="main__about">
+        <h2>About the Event</h2>
+        <p class="main__p">
+          BINUS Geeks TechCon 2025 brings leading minds in programming, tech,
+          and innovation. Join us for a day of insightful talks, hands-on
+          workshops, and an opportunity to network with fellow geeks and
+          professionals from all around the world.
+        </p>
+      </section>
+
+      <section id="schedule">
+        <h2>Event Schedule</h2>
+
+        <table class="schedule__table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Session</th>
+              <th>Contest</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>9:00 AM</th>
+              <th>Opening Keynote</th>
+              <th>BINUS Geeks Coding Platform</th>
+            </tr>
+            <tr>
+              <th>10:30 AM</th>
+              <th>Understanding AI and Machine Learning</th>
+              <th>Mr. Arvind Kumar</th>
+            </tr>
+            <tr>
+              <th>1:00 PM</th>
+              <th>Lunch Break</th>
+              <th>-</th>
+            </tr>
+            <tr>
+              <th>2:00 PM</th>
+              <th>Exploring the Future of Cloud Computing</th>
+              <th>Ms. Neha Gupta</th>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="speaker">
+        <h2 class="speaker__h2">Meet the Speakers</h2>
+        <ul class="speaker__ul">
+          <li>Dr. Rhadika Sharma: Expert Ai Researcher</li>
+          <li>Mr. Arvind Kumar: Senior Data Scientist at TechWave</li>
+          <li>Ms. Neha Gupta: Cloud Computing Specialist at CloudTech</li>
+          <li>
+            Mr. Sandeep Reddy: Full Stack Developer and OpenSource Contributer
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2 class="contact__h2">Contact Us</h2>
+        <form
+          action="https://httpbin.org/get"
+          method="get"
+          class="contact__form"
+        >
+          <fieldset class="contact__fieldset">
+            <p class="contact__p">
+              <label for="name" class="contact__label">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="contact__input"
+                placeholder=" Your Name"
+                required
+              />
+            </p>
+
+            <p class="contact__p">
+              <label for="email" class="contact__label">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="contact__input"
+                placeholder=" Your Email"
+                required
+              />
+            </p>
+
+            <p class="contact__p">
+              <label for="message" class="contact__label">Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                class="contact__textarea"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </p>
+            <button id="button" type="submit" class="contact__button">
+              Send
+            </button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
